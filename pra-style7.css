@@ -13,12 +13,22 @@ font-family: 'Poppins', Helvetica, Arial, sans-serif;
     margin-left: 50px;
     background-color: transparent;
 }
-
+.m-clr
+{
+    color: white;
+}
 .first
 {
     background-image: url(imgs/banner.jpg);
     width: 100%;
    
+}
+
+.f-button:hover
+{
+     color: #fff!important;
+  background-color: transparent!important;
+  border: 2px solid #fff;
 }
 .navbar-mine
 {
@@ -33,6 +43,21 @@ font-family: 'Poppins', Helvetica, Arial, sans-serif;
    height: 720px;
     text-align:  center;
     
+}
+.tclient
+{
+	height: 500px;
+	background-image: url(../img/testimonials_bg.jpg) ;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	position: relative;
+    text-align: center;
+}
+.tclient p,h5
+{
+    color: white;
 }
 .smith  h1
 
@@ -67,7 +92,7 @@ font-family: 'Poppins', Helvetica, Arial, sans-serif;
 
 .nav-link-mine:hover
 {
-    color: white!important;
+    color: black!important;
 }
 .nav-col
 {
